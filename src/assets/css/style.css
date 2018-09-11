@@ -1,0 +1,40 @@
+.sidebar-toggle-fold::before {
+    border: 1px solid #213760 !important;
+    background-color: #213760;
+}
+
+.sidebar-header {
+    background-color: #FFF;
+}
+
+.cust-shadow-aside-header {
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.10);
+}
+
+.menu-category {
+    font-size: 0.8875rem;
+    color: #093561 !important;
+    font-weight: 700;
+}
+
+.sidebar.sidebar-light .menu:not(.menu-bordery)>.menu-item.active>.menu-link,
+.sidebar.sidebar-light .menu:not(.menu-bordery)>.menu-item.active:hover>.menu-link {
+    background-color: #DCDCDC;
+}
+
+.cust-icon-link {
+    color: #003366;
+}
+
+.menu-link {
+    font-weight: 500;
+    color: #003366 !important;
+}
+
+.cust-margin-h3 {
+    margin-left: 15px;
+}
+
+.sidebar .menu:not(.menu-bordery)>.menu-item.active>.menu-link {
+    background-color: #DCDCDC;
+}
