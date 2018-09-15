@@ -35,6 +35,26 @@
     margin-left: 15px;
 }
 
-.sidebar .menu:not(.menu-bordery)>.menu-item.active>.menu-link {
-    background-color: #DCDCDC;
+.cust-hr-margin {
+    margin: 1rem auto;
+}
+
+.cust-span-margin-right {
+    margin-right: 20px;
+}
+
+.cust-btn-width {
+    width: 250px;
+}
+
+.cust-green-color {
+    color: #15C377;
+}
+
+.cust-blue-color {
+    color: #48B0F7;
+}
+
+.cust-yellow-color {
+    color: #FCC525;
 }
