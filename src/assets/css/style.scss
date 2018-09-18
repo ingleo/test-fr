@@ -1,0 +1,67 @@
+$inalambria-color-blue: #093561;
+$inalambria-color-blue2: #003366;
+$inalambria-color-white: #FFF;
+$inalambria-color-gray: #DCDCDC;
+$inalambria-color-received: #15C377;
+$inalambria-color-sent: #48B0F7;
+$inalambria-color-open: #FCC525;
+.sidebar-toggle-fold::before {
+    border: 1px solid $inalambria-color-blue !important;
+    background-color: $inalambria-color-blue;
+}
+
+.sidebar-header {
+    background-color: $inalambria-color-white;
+}
+
+.cust-shadow-aside-header {
+    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.10);
+}
+
+.menu-category {
+    font-size: 0.8875rem;
+    color: $inalambria-color-blue2 !important;
+    font-weight: 700;
+}
+
+.sidebar.sidebar-light .menu:not(.menu-bordery)>.menu-item.active>.menu-link,
+.sidebar.sidebar-light .menu:not(.menu-bordery)>.menu-item.active:hover>.menu-link {
+    background-color: $inalambria-color-gray;
+}
+
+.cust-icon-link {
+    color: $inalambria-color-blue2;
+}
+
+.menu-link {
+    font-weight: 500;
+    color: $inalambria-color-blue2 !important;
+}
+
+.cust-margin-h3 {
+    margin-left: 15px;
+}
+
+.cust-hr-margin {
+    margin: 1rem auto;
+}
+
+.cust-span-margin-right {
+    margin-right: 20px;
+}
+
+.cust-btn-width {
+    width: 250px;
+}
+
+.cust-green-color {
+    color: $inalambria-color-received;
+}
+
+.cust-blue-color {
+    color: $inalambria-color-sent;
+}
+
+.cust-yellow-color {
+    color: $inalambria-color-open;
+}

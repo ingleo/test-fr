@@ -1,60 +1,62 @@
 .sidebar-toggle-fold::before {
-    border: 1px solid #213760 !important;
-    background-color: #213760;
+  border: 1px solid #093561 !important;
+  background-color: #093561;
 }
 
 .sidebar-header {
-    background-color: #FFF;
+  background-color: #FFF;
 }
 
 .cust-shadow-aside-header {
-    box-shadow: 4px 0 15px rgba(0, 0, 0, 0.10);
+  box-shadow: 4px 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .menu-category {
-    font-size: 0.8875rem;
-    color: #093561 !important;
-    font-weight: 700;
+  font-size: 0.8875rem;
+  color: #003366 !important;
+  font-weight: 700;
 }
 
-.sidebar.sidebar-light .menu:not(.menu-bordery)>.menu-item.active>.menu-link,
-.sidebar.sidebar-light .menu:not(.menu-bordery)>.menu-item.active:hover>.menu-link {
-    background-color: #DCDCDC;
+.sidebar.sidebar-light .menu:not(.menu-bordery) > .menu-item.active > .menu-link,
+.sidebar.sidebar-light .menu:not(.menu-bordery) > .menu-item.active:hover > .menu-link {
+  background-color: #DCDCDC;
 }
 
 .cust-icon-link {
-    color: #003366;
+  color: #003366;
 }
 
 .menu-link {
-    font-weight: 500;
-    color: #003366 !important;
+  font-weight: 500;
+  color: #003366 !important;
 }
 
 .cust-margin-h3 {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .cust-hr-margin {
-    margin: 1rem auto;
+  margin: 1rem auto;
 }
 
 .cust-span-margin-right {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .cust-btn-width {
-    width: 250px;
+  width: 250px;
 }
 
 .cust-green-color {
-    color: #15C377;
+  color: #15C377;
 }
 
 .cust-blue-color {
-    color: #48B0F7;
+  color: #48B0F7;
 }
 
 .cust-yellow-color {
-    color: #FCC525;
+  color: #FCC525;
 }
+
+/*# sourceMappingURL=style.css.map */
