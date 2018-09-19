@@ -59,4 +59,21 @@
   color: #FCC525;
 }
 
+.cust-img-width {
+  max-width: 80% !important;
+}
+
+.cust-color-title {
+  color: #093561 !important;
+  font-weight: 400;
+}
+
+.cust-content-top-padding {
+  padding-top: 0px !important;
+}
+
+.cust-a-color {
+  color: #65C7BB;
+}
+
 /*# sourceMappingURL=style.css.map */
