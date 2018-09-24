@@ -5,37 +5,12 @@ $inalambria-color-gray: #DCDCDC;
 $inalambria-color-received: #15C377;
 $inalambria-color-sent: #48B0F7;
 $inalambria-color-open: #FCC525;
-.sidebar-toggle-fold::before {
-    border: 1px solid $inalambria-color-blue !important;
-    background-color: $inalambria-color-blue;
-}
-
-.sidebar-header {
-    background-color: $inalambria-color-white;
-}
-
 .cust-shadow-aside-header {
     box-shadow: 4px 0 15px rgba(0, 0, 0, 0.10);
 }
 
-.menu-category {
-    font-size: 0.8875rem;
-    color: $inalambria-color-blue2 !important;
-    font-weight: 700;
-}
-
-.sidebar.sidebar-light .menu:not(.menu-bordery)>.menu-item.active>.menu-link,
-.sidebar.sidebar-light .menu:not(.menu-bordery)>.menu-item.active:hover>.menu-link {
-    background-color: $inalambria-color-gray;
-}
-
 .cust-icon-link {
     color: $inalambria-color-blue2;
-}
-
-.menu-link {
-    font-weight: 500;
-    color: $inalambria-color-blue2 !important;
 }
 
 .cust-margin-h3 {
@@ -80,10 +55,25 @@ $inalambria-color-open: #FCC525;
 }
 
 .cust-a-color {
-    color: #65C7BB
+    color: #65C78B;
 }
 
 .cust-font-family {
     font-family: 'Alegreya Sans SC';
     font-size: 5em;
+}
+
+.cust-donut-container {
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.cust-badge-background {
+    background-color: #46be8a;
+}
+
+.cust-area-container {
+    margin: 5%;
+    margin-top: 0%;
 }
