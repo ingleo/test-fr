@@ -53,24 +53,34 @@
             </div>
             <div class="divider"> </div>
             <div class="row cust-donut-container">
-
-                <!--Today messages card-->
                 <div class="col-md-4 col-lg-3">
                     <div class="card">
                         <div class="card-header">
                             <h4 class="card-title">Hoy</h4>
                         </div>
-                        <div class="card-body">
-                            <canvas id="chart-vbar-today" width="400" height="250"></canvas>
-                            <ul class="flexbox flex-justified text-center mt-30 cust-margin-chart">
+
+                        <div class="card-body card-body">
+                            <div class="text-center py-20">
+                                <div data-provide="peity" data-type="pie" data-size="100" data-inner-radius="30" data-fill="#15C377,#48B0F7,#FCC525">46,50,12</div>
+                            </div>
+
+                            <ul class="flexbox flex-justified text-center mt-30">
                                 <li class="br-1 botder-light">
-                                    <div class="fs-20 cust-green-color">1000</div>
+                                    <div class="fs-20 cust-green-color">46</div>
+                                    <div class="fs-20 cust-green-color">53%</div>
+                                    <small>Recibidos</small>
                                 </li>
+
                                 <li class="br-1 botder-light">
-                                    <div class="fs-20 cust-blue-color">800</div>
+                                    <div class="fs-20 cust-blue-color">50</div>
+                                    <div class="fs-20 cust-blue-color">44%</div>
+                                    <small>Enviados</small>
                                 </li>
+
                                 <li>
-                                    <div class="fs-20 cust-yellow-color">150</div>
+                                    <div class="fs-20 cust-yellow-color">12</div>
+                                    <div class="fs-20 cust-yellow-color">27%</div>
+                                    <small>Abiertos</small>
                                 </li>
                             </ul>
 
@@ -78,32 +88,32 @@
                             <ul class="list-inline">
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span>Descargar Recibidos/Enviados</span>
+                                        <span>Descargar Enviados/Recibidos</span>
                                     </div>
                                 </li>
 
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">CSV</a></strong></span>
                                         <span class="cust-span-margin-right"></span>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">XLSX</a></strong></span>
                                     </div>
                                 </li>
 
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span>Descargar Enviados</span>
+                                        <span>Descargar Recibidos</span>
                                     </div>
                                 </li>
 
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">CSV</a></strong></span>
                                         <span class="cust-span-margin-right"></span>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">XLSX</a></strong></span>
                                     </div>
                                 </li>
@@ -112,52 +122,65 @@
                     </div>
                 </div>
 
-                <!--Weekly messages card-->
+
                 <div class="col-md-4 col-lg-3">
                     <div class="card">
                         <div class="card-header">
                             <h4 class="card-title">Esta semana</h4>
                         </div>
-                        <div class="card-body">
-                            <canvas id="chart-vbar-weekly" width="400" height="250"></canvas>
-                            <ul class="flexbox flex-justified text-center mt-30 cust-margin-chart">
+
+                        <div class="card-body card-body">
+                            <div class="text-center py-20">
+                                <div data-provide="peity" data-type="pie" data-size="100" data-inner-radius="30" data-fill="#15C377,#48B0F7,#FCC525">157,162,33</div>
+                            </div>
+
+                            <ul class="flexbox flex-justified text-center mt-30">
                                 <li class="br-1 botder-light">
-                                    <div class="fs-20 cust-green-color">1001</div>
+                                    <div class="fs-20 cust-green-color">157</div>
+                                    <small>Recibidos</small>
                                 </li>
+
                                 <li class="br-1 botder-light">
-                                    <div class="fs-20 cust-blue-color">801</div>
+                                    <div class="fs-20 cust-blue-color">162</div>
+                                    <small>Enviados</small>
                                 </li>
+
                                 <li>
-                                    <div class="fs-20 cust-yellow-color">151</div>
+                                    <div class="fs-20 cust-yellow-color">33</div>
+                                    <small>Abiertos</small>
                                 </li>
                             </ul>
+
                             <hr class="cust-hr-margin">
                             <ul class="list-inline">
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span>Descargar Recibidos/Enviados</span>
+                                        <span>Descargar Enviados/Recibidos</span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">CSV</a></strong></span>
                                         <span class="cust-span-margin-right"></span>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">XLSX</a></strong></span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span>Descargar Enviados</span>
+                                        <span>Descargar Recibidos</span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">CSV</a></strong></span>
                                         <span class="cust-span-margin-right"></span>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">XLSX</a></strong></span>
                                     </div>
                                 </li>
@@ -166,52 +189,64 @@
                     </div>
                 </div>
 
-                <!--Monthly messages card-->
                 <div class="col-md-4 col-lg-3">
                     <div class="card">
                         <div class="card-header">
                             <h4 class="card-title">Este mes</h4>
                         </div>
+
                         <div class="card-body card-body">
-                            <canvas id="chart-vbar-monthly" width="400" height="250"></canvas>
-                            <ul class="flexbox flex-justified text-center mt-30 cust-margin-chart">
+                            <div class="text-center py-20">
+                                <div data-provide="peity" data-type="pie" data-size="100" data-inner-radius="30" data-fill="#15C377,#48B0F7,#FCC525">953,813,369</div>
+                            </div>
+
+                            <ul class="flexbox flex-justified text-center mt-30">
                                 <li class="br-1 botder-light">
-                                    <div class="fs-20 cust-green-color">1002</div>
+                                    <div class="fs-20 cust-green-color">953</div>
+                                    <small>Recibidos</small>
                                 </li>
+
                                 <li class="br-1 botder-light">
-                                    <div class="fs-20 cust-blue-color">802</div>
+                                    <div class="fs-20 cust-blue-color">813</div>
+                                    <small>Enviados</small>
                                 </li>
+
                                 <li>
-                                    <div class="fs-20 cust-yellow-color">152</div>
+                                    <div class="fs-20 cust-yellow-color">69</div>
+                                    <small>Abiertos</small>
                                 </li>
                             </ul>
+
                             <hr class="cust-hr-margin">
                             <ul class="list-inline">
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span>Descargar Recibidos/Enviados</span>
+                                        <span>Descargar Enviados/Recibidos</span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">CSV</a></strong></span>
                                         <span class="cust-span-margin-right"></span>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">XLSX</a></strong></span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span>Descargar Enviados</span>
+                                        <span>Descargar Recibidos</span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">CSV</a></strong></span>
                                         <span class="cust-span-margin-right"></span>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">XLSX</a></strong></span>
                                     </div>
                                 </li>
@@ -219,53 +254,63 @@
                         </div>
                     </div>
                 </div>
-
-                <!--Total messages card-->
                 <div class="col-md-4 col-lg-3">
                     <div class="card">
                         <div class="card-header">
                             <h4 class="card-title">Desde el inicio</h4>
                         </div>
+
                         <div class="card-body card-body">
-                            <canvas id="chart-vbar-total" width="400" height="250"></canvas>
-                            <ul class="flexbox flex-justified text-center mt-30 cust-margin-chart">
+                            <div class="text-center py-20">
+                                <div data-provide="peity" data-type="pie" data-size="100" data-inner-radius="30" data-fill="#15C377,#48B0F7,#FCC525">1476,1500,129</div>
+                            </div>
+
+                            <ul class="flexbox flex-justified text-center mt-30">
                                 <li class="br-1 botder-light">
-                                    <div class="fs-20 cust-green-color">1003</div>
+                                    <div class="fs-20 cust-green-color">1476</div>
+                                    <small>Recibidos</small>
                                 </li>
+
                                 <li class="br-1 botder-light">
-                                    <div class="fs-20 cust-blue-color">803</div>
+                                    <div class="fs-20 cust-blue-color">1500</div>
+                                    <small>Enviados</small>
                                 </li>
+
                                 <li>
-                                    <div class="fs-20 cust-yellow-color">153</div>
+                                    <div class="fs-20 cust-yellow-color">129</div>
+                                    <small>Abiertos</small>
                                 </li>
                             </ul>
                             <hr class="cust-hr-margin">
                             <ul class="list-inline">
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span>Descargar Recibidos/Enviados</span>
+                                        <span>Descargar Enviados/Recibidos</span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">CSV</a></strong></span>
                                         <span class="cust-span-margin-right"></span>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">XLSX</a></strong></span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span>Descargar Enviados</span>
+                                        <span>Descargar Recibidos</span>
                                     </div>
                                 </li>
+
                                 <li class="flexbox mb-1">
                                     <div>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">CSV</a></strong></span>
                                         <span class="cust-span-margin-right"></span>
-                                        <span class="badge badge-dot badge-gray cust-badge-margin"></span>
+                                        <span class="badge badge-dot badge-lg mr-1 cust-badge-background"></span>
                                         <span><strong><a class="cust-a-color" href="">XLSX</a></strong></span>
                                     </div>
                                 </li>
@@ -275,17 +320,17 @@
                 </div>
             </div>
 
-            <!--Area chart container-->
             <div class="card cust-area-container">
+
                 <div class="card-title">
                     <div class="btn-group">
                         <button id="btnDrop" class="btn btn-light dropdown-toggle cust-btn-width" type="button" data-toggle="dropdown" aria-expanded="false">
                                 <i class="icon ti-stats-up"></i>Selecciona el periodo
                             </button>
-                        <div class="dropdown-menu dropdown-menu-right cust-dropdown-position" x-placement="bottom-end">
-                            <a class="dropdown-item" href="#" onclick="changeTimePeriod('Hoy')">Hoy</a>
-                            <a class="dropdown-item" href="#" onclick="changeTimePeriod('Esta semana')">Esta Semana</a>
-                            <a class="dropdown-item" href="#" onclick="changeTimePeriod('Este Mes')">Este Mes</a>
+                        <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: top, left; top: 36px; left: 144px;">
+                            <a class="dropdown-item" href="#" onclick="myFunction('Hoy')">Hoy</a>
+                            <a class="dropdown-item" href="#" onclick="myFunction('Esta semana')">Esta Semana</a>
+                            <a class="dropdown-item" href="#" onclick="myFunction('Este Mes')">Este Mes</a>
                         </div>
                     </div>
                 </div>
@@ -293,6 +338,48 @@
                 <div class="card-body">
                     <div class="card-body">
                         <canvas id="chart-area-2" width="400" height="130"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card cust-area-container">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <h4 class="card-title"><strong>Vertical bar</strong> chart - 2</h4>
+
+                        <div class="card-body">
+                            <canvas id="chart-vbar-2" width="400" height="250"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card cust-area-container">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card card-body">
+                        <div class="flexbox">
+                            <h6 class="text-uppercase">Analysis</h6>
+                            <h6><i class="ion-android-arrow-dropup text-success fs-18 mr-1"></i> %20</h6>
+                        </div>
+
+                        <ul class="flexbox flex-justified text-center my-40">
+                            <li class="br-1 border-light">
+                                <div class="fs-18">%76.58</div>
+                                <small>All Time</small>
+                            </li>
+
+                            <li class="br-1 border-light">
+                                <div class="fs-18">%35.12</div>
+                                <small>Last Month</small>
+                            </li>
+
+                            <li>
+                                <div class="fs-18">%6.66</div>
+                                <small>Today</small>
+                            </li>
+                        </ul>
+
+                        <div class="text-center" data-provide="sparkline" data-type="bar" data-height="80" data-bar-color="#ff9f40">1000,800,150</div>
                     </div>
                 </div>
             </div>
@@ -326,222 +413,51 @@
     <script src="assets/js/script.min.js"></script>
 
     <script>
-        function changeTimePeriod(option) {
+        //function to change drop btn option
+        function myFunction(option) {
             var mainbtn = document.getElementById("btnDrop");
             mainbtn.innerText = option;
         }
 
+        //Bar chart for today messages
+        new Chart($("#chart-vbar-2"), {
+            type: 'bar',
+
+            // Data
+            //
+            data: {
+                labels: ["Recibidos", "Enviados", "Abiertos"],
+                datasets: [{
+                    label: "",
+                    backgroundColor: "rgba(51,202,185,0.5)",
+                    borderColor: "rgba(0,0,0,0)",
+                    hoverBackgroundColor: "rgba(51,202,185,0.7)",
+                    hoverBorderColor: "rgba(0,0,0,0)",
+                    data: [1000, 800, 150]
+                }]
+            },
+
+            // Options
+            //
+            options: {
+                scales: {
+                    yAxes: [{
+                        type: "logarithmic",
+                        ticks: {
+                            min: 50,
+                            max: 1000,
+                            display: false
+                        },
+                        scaleLabel: {
+                            display: false,
+                            labelString: 'Y Axis'
+                        }
+                    }]
+                }
+            }
+        });
+
         app.ready(function() {
-
-            //Chart for today messages
-            new Chart($("#chart-vbar-today"), {
-                type: 'bar',
-
-                // Data
-                data: {
-                    labels: ["Recibidos", "Enviados", "Abiertos"],
-                    datasets: [{
-                        backgroundColor: ['rgba(21,195,119,0.8)',
-                            'rgba(72,176,247,0.8)',
-                            'rgba(252,197,37,0.8)'
-                        ],
-                        hoverBackgroundColor: ['rgba(21,195,119)',
-                            'rgba(72,176,247)',
-                            'rgba(252,197,37)'
-                        ],
-                        borderColor: "rgba(0,0,0,0)",
-                        hoverBorderColor: "rgba(0,0,0,0)",
-                        data: [1000, 800, 150]
-                    }]
-                },
-                // Options
-                options: {
-                    title: {
-                        text: 'Mensajes',
-                        display: true,
-                        fontSize: 13
-                    },
-                    scales: {
-                        xAxes: [{
-                            barThickness: 50
-                        }],
-                        yAxes: [{
-                            gridLines: {
-                                drawBorder: false,
-                            },
-                            type: "logarithmic",
-                            ticks: {
-                                min: 10,
-                                max: 1000,
-                                display: false
-                            },
-                            scaleLabel: {
-                                display: false,
-                                labelString: 'Y Axis'
-                            }
-                        }]
-                    },
-                    legend: {
-                        display: false
-                    }
-                }
-            });
-
-            //Chart for weekly messages
-            new Chart($("#chart-vbar-weekly"), {
-                type: 'bar',
-
-                // Data
-                data: {
-                    labels: ["Recibidos", "Enviados", "Abiertos"],
-                    datasets: [{
-                        backgroundColor: ['rgba(21,195,119,0.8)',
-                            'rgba(72,176,247,0.8)',
-                            'rgba(252,197,37,0.8)'
-                        ],
-                        hoverBackgroundColor: ['rgba(21,195,119)',
-                            'rgba(72,176,247)',
-                            'rgba(252,197,37)'
-                        ],
-                        borderColor: "rgba(0,0,0,0)",
-                        hoverBorderColor: "rgba(0,0,0,0)",
-                        data: [1000, 800, 150]
-                    }]
-                },
-                // Options
-                options: {
-                    title: {
-                        text: 'Mensajes',
-                        display: true,
-                        fontSize: 13
-                    },
-                    scales: {
-                        xAxes: [{
-                            barThickness: 50
-                        }],
-                        yAxes: [{
-                            type: "logarithmic",
-                            ticks: {
-                                min: 10,
-                                max: 1000,
-                                display: false
-                            },
-                            scaleLabel: {
-                                display: false,
-                                labelString: 'Y Axis'
-                            }
-                        }]
-                    },
-                    legend: {
-                        display: false
-                    }
-                }
-            });
-
-            //Chart for monthly messages
-            new Chart($("#chart-vbar-monthly"), {
-                type: 'bar',
-
-                // Data
-                data: {
-                    labels: ["Recibidos", "Enviados", "Abiertos"],
-                    datasets: [{
-                        backgroundColor: ['rgba(21,195,119,0.8)',
-                            'rgba(72,176,247,0.8)',
-                            'rgba(252,197,37,0.8)'
-                        ],
-                        hoverBackgroundColor: ['rgba(21,195,119)',
-                            'rgba(72,176,247)',
-                            'rgba(252,197,37)'
-                        ],
-                        borderColor: "rgba(0,0,0,0)",
-                        hoverBorderColor: "rgba(0,0,0,0)",
-                        data: [1000, 800, 150]
-                    }]
-                },
-                // Options
-                options: {
-                    title: {
-                        text: 'Mensajes',
-                        display: true,
-                        fontSize: 13
-                    },
-                    scales: {
-                        xAxes: [{
-                            barThickness: 50
-                        }],
-                        yAxes: [{
-                            type: "logarithmic",
-                            ticks: {
-                                min: 10,
-                                max: 1000,
-                                display: false
-                            },
-                            scaleLabel: {
-                                display: false,
-                                labelString: 'Y Axis'
-                            }
-                        }]
-                    },
-                    legend: {
-                        display: false
-                    }
-                }
-            });
-
-            //Chart for total messages
-            new Chart($("#chart-vbar-total"), {
-                type: 'bar',
-
-                // Data
-                data: {
-                    labels: ["Recibidos", "Enviados", "Abiertos"],
-                    datasets: [{
-                        backgroundColor: ['rgba(21,195,119,0.8)',
-                            'rgba(72,176,247,0.8)',
-                            'rgba(252,197,37,0.8)'
-                        ],
-                        hoverBackgroundColor: ['rgba(21,195,119)',
-                            'rgba(72,176,247)',
-                            'rgba(252,197,37)'
-                        ],
-                        borderColor: "rgba(0,0,0,0)",
-                        hoverBorderColor: "rgba(0,0,0,0)",
-                        data: [1000, 800, 150]
-                    }]
-                },
-                // Options
-                options: {
-                    title: {
-                        text: 'Mensajes',
-                        display: true,
-                        fontSize: 13
-                    },
-                    scales: {
-                        xAxes: [{
-                            barThickness: 50
-                        }],
-                        yAxes: [{
-                            type: "logarithmic",
-                            ticks: {
-                                min: 10,
-                                max: 1000,
-                                display: false
-                            },
-                            scaleLabel: {
-                                display: false,
-                                labelString: 'Y Axis'
-                            }
-                        }]
-                    },
-                    legend: {
-                        display: false
-                    }
-                }
-            });
-
-
-
             new Chart($("#chart-area-2"), {
                 type: 'line',
 

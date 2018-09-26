@@ -60,7 +60,7 @@ $inalambria-color-open: #FCC525;
 
 .cust-font-family {
     font-family: 'Alegreya Sans SC';
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .cust-donut-container {
@@ -76,4 +76,19 @@ $inalambria-color-open: #FCC525;
 .cust-area-container {
     margin: 5%;
     margin-top: 0%;
+}
+
+.cust-margin-chart {
+    margin-top: 0px !important;
+}
+
+.cust-dropdown-position {
+    position: absolute;
+    will-change: top, left;
+    top: 36px;
+    left: 144px;
+}
+
+.cust-badge-margin {
+    margin-right: 5px;
 }
